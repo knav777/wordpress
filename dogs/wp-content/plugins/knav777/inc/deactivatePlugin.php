@@ -1,6 +1,8 @@
 <?php
 
-class deactivatePlugin{
+namespace knav777;
+
+class DeactivatePlugin extends Knav777Plugin{
 
     const CLASS_NAME = 'deactivatePlugin';
     

@@ -1,9 +1,12 @@
 <?php 
 
 /**
- * 
  * @package Knav777
  */
+
+use knav777\ActivatePlugin;
+use knav777\DeactivatePlugin;
+
 /**
  * Plugin Name: Knav777
  * Plugin URI: Empty
@@ -16,12 +19,9 @@
 
 defined('ABSPATH') or die();
 
-require_once 'inc/Bootstrap.php';
-require_once 'inc/activatePlugin.php';
-require_once 'inc/deactivatePlugin.php';
+require_once __DIR__ . "/vendor/autoload.php";
 
-$bootstrap = new Bootstrap();
-$bootstrap->registerJsCssBack();
+$activate_plugin = new ActivatePlugin();
 
-register_activation_hook(__FILE__, [activatePlugin::CLASS_NAME, 'activate']);
-register_deactivation_hook(__FILE__, [deactivatePlugin::CLASS_NAME, 'deactivate']);
+register_activation_hook(__FILE__, [ActivatePlugin::CLASS_NAME, 'activate']);
+register_deactivation_hook(__FILE__, [DeactivatePlugin::CLASS_NAME, 'deactivate']);
