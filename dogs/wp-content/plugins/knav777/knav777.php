@@ -7,13 +7,6 @@
  * Plugin URI: Empty
  * Description: Plugin Customized (Only Testing by developer)
  * Version: 1.0.0
- * 
- * Requires PHP: 7.2.0
- * Requires at least: 7.0
- * 
- * WC tested up to: 5.7
- * WC requires at least: 5.7
- * 
  * Author: Knav777
  * Author URI: https://www.instagram.com/knav777
  * Text Domain: This is a plugin very nice (In Construccion, Not use in PROD) 
