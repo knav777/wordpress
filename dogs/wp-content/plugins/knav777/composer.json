@@ -1,0 +1,19 @@
+{
+    "name": "knav7/knav777",
+    "description": "This is a plugin for learn onlytly",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "knav777-brightvessel",
+            "email": "kleinmann@brightvessel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "inc/"
+        }
+    }
+}
