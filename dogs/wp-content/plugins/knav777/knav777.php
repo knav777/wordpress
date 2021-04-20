@@ -4,11 +4,11 @@
  */
 /** 
  * Plugin Name: Knav777
- * Plugin URI: Empty
+ * Plugin URI: https://github.com/knav777/wordpress/tree/develop/dogs/wp-content/plugins/knav777
  * Description: Plugin Customized (Only Testing by developer)
  * Version: 1.0.0
  * Author: Knav777
- * Author URI: https://www.instagram.com/knav777
+ * Author URI: https://github.com/knav777
  * Text Domain: This is a plugin very nice (In Construccion, Not use in PROD) 
  */
 
