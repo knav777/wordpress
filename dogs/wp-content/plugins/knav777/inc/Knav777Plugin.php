@@ -1,6 +1,6 @@
 <?php
 
-namespace knav777;
+namespace Inc;
 
 class Knav777Plugin{
 

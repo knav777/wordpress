@@ -4,8 +4,8 @@
  * @package Knav777
  */
 
-use knav777\ActivatePlugin;
-use knav777\DeactivatePlugin;
+use Inc\ActivatePlugin;
+use Inc\DeactivatePlugin;
 
 /**
  * Plugin Name: Knav777

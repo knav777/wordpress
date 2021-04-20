@@ -1,6 +1,6 @@
 <?php
 
-namespace knav777;
+namespace Inc;
 class ActivatePlugin extends Knav777Plugin{
 
     const CLASS_NAME = 'activatePlugin';
@@ -18,7 +18,7 @@ class ActivatePlugin extends Knav777Plugin{
     }
 
     public function addSettingLinks($links){
-        $settings_link = "<a href='options-general.php?page=knav777_plugin' >Settings</a>";
+        $settings_link = "<a href='admin.php?page=knav777_plugin' >Settings</a>";
         array_push($links, $settings_link);
         return $links;
     }
