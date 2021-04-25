@@ -23,3 +23,6 @@ define('PLUGIN_NAME', plugin_basename(__FILE__));
 
 if(!class_exists('Inc\\Init')) die();
 Inc\Init::registerServices();
+
+register_activation_hook(__FILE__, [Inc\Base\Activate::CLASS_NAME, 'activate']);
+register_deactivation_hook(__FILE__, [Inc\Base\Deactivate::CLASS_NAME, 'deactivate']);
